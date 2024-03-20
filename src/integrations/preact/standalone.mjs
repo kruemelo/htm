@@ -20,9 +20,9 @@ import htm from '../../index.mjs';
 const html = htm.bind(h);
 
 export {
-  html,
-  h, createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray,
-  useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId,
-  /*signal, computed, effect, batch,*/ untracked, useSignal, useComputed, useSignalEffect
+	html,
+	h, createElement, cloneElement, Component, createContext, createRef, render, hydrate, toChildArray,
+	useState, useReducer, useEffect, useLayoutEffect, useRef, useImperativeHandle, useMemo, useCallback, useContext, useDebugValue, useErrorBoundary, useId,
+	/*signal, computed, effect, batch,*/ untracked, useSignal, useComputed, useSignalEffect
 };
-export * from '@preact/signals-core'
+export * from '@preact/signals-core';
