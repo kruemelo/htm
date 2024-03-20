@@ -26,3 +26,12 @@ export {
 	/*signal, computed, effect, batch,*/ untracked, useSignal, useComputed, useSignalEffect
 };
 export * from '@preact/signals-core';
+export * from 'preact-custom-element';
+
+// https://github.com/preactjs/preact-render-to-string
+export { renderToString, renderToStringAsync } from 'preact-render-to-string';
+
+// https://github.com/preactjs/preact-router
+import * as _router from 'preact-router';
+export const router = _router;
+
